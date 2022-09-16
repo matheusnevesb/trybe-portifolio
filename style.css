@@ -3,12 +3,27 @@ body {
 }
 
 #nome {
+    text-align: center;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.foto-e-descricao {
+    height: 250px;
+    position: relative;
 }
 
 #descricao {
     font-family:'Courier New', Courier, monospace;
     font-weight: bold;
+    position: absolute;
+    right: 95px;
+    top: 95px;
+}
+
+#foto {
+    float: left;
+    padding: 20px;
+    background-color: blue;
 }
 
 .item-1 {
@@ -25,4 +40,8 @@ body {
 
 .item-4 {
     font-size: 19px;
+}
+
+.lista-habilidades li:nth-child(odd) {
+    background-color: beige;
 }
